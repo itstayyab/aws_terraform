@@ -9,8 +9,6 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAYEULWPO5PCKWRE7K"
-  secret_key = "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"
 }
 
 resource "aws_security_group" "sg" {
